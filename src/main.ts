@@ -18,4 +18,5 @@ const router = VueRouter.createRouter({
 const pinia = createPinia();
 pinia.use(piniaPluginPersistedstate);
 
+
 createApp(App).use(Antd).use(router).use(pinia).mount("#app");
