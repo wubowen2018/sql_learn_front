@@ -30,4 +30,3 @@ jobs:
           github_token: ${{ secrets.SQL_SECRET }}
           publish_dir: ./dist
           publish_branch: gh-pages
-          
