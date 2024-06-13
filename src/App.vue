@@ -5,7 +5,7 @@
         <RouterLink to="/">
           <a-row align="middle">
             <img src="./assets/logo.png" alt="SQL之母" class="logo" />
-            <span class="title">SQL之母</span>
+            <span class="title">SQL自学</span>
           </a-row>
         </RouterLink>
       </a-col>
@@ -20,7 +20,7 @@
           <a-menu-item key="/levels">关卡</a-menu-item>
           <a-menu-item key="/playground">广场</a-menu-item>
           <a-menu-item>
-            <a href="https://github.com/liyupi/sql-mother" target="_blank">
+            <a href="https://github.com/wubowen2018/sql_learn_front" target="_blank">
               <github-outlined /> 代码开源
             </a>
           </a-menu-item>
@@ -31,8 +31,7 @@
       <router-view />
     </div>
     <div class="footer">
-      SQL之母 - SQL 自学网站 ©2023 by
-      <a href="https://github.com/liyupi" target="_blank">程序员鱼皮</a>
+      浙ICP备2024093593号
     </div>
     <a-back-top :style="{ right: '24px' }" />
   </div>
